@@ -51,8 +51,6 @@ D:\Cygnet Projects\HarbourControl_Shiv\bin\roslyn\vbc.rsp
 D:\Cygnet Projects\HarbourControl_Shiv\bin\roslyn\VBCSCompiler.exe
 D:\Cygnet Projects\HarbourControl_Shiv\bin\roslyn\VBCSCompiler.exe.config
 D:\Cygnet Projects\HarbourControl_Shiv\bin\Antlr3.Runtime.dll
-D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.dll
-D:\Cygnet Projects\HarbourControl_Shiv\bin\log4net.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\Microsoft.Web.Infrastructure.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\Newtonsoft.Json.dll
@@ -67,8 +65,6 @@ D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.WebPages.Deployment.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.WebPages.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.WebPages.Razor.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\WebGrease.dll
-D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.pdb
-D:\Cygnet Projects\HarbourControl_Shiv\bin\log4net.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.Helpers.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.Mvc.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.Optimization.xml
@@ -82,8 +78,10 @@ D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Net.Http.Formatting.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.Http.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\System.Web.Http.WebHost.xml
 D:\Cygnet Projects\HarbourControl_Shiv\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.csprojAssemblyReference.cache
 D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.csproj.CoreCompileInputs.cache
 D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.csproj.CopyComplete
 D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.dll
 D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.pdb
+D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.csprojAssemblyReference.cache
+D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.dll
+D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.pdb
