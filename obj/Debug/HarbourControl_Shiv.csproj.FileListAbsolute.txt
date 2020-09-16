@@ -85,3 +85,5 @@ D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.pdb
 D:\Cygnet Projects\HarbourControl_Shiv\obj\Debug\HarbourControl_Shiv.csprojAssemblyReference.cache
 D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.dll
 D:\Cygnet Projects\HarbourControl_Shiv\bin\HarbourControlModels.pdb
+D:\Cygnet Projects\HarbourControl_Shiv\bin\log4net.dll
+D:\Cygnet Projects\HarbourControl_Shiv\bin\log4net.xml
