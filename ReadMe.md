@@ -16,12 +16,10 @@ ___
 
 ___
 
-###Project Description
+### Project Description
 
 - Use of C# Random Number Functionality For Randomly Generating The Number of Boats To Be Created.
 - Use of C# Random Number Functionality For Randomly Generating The Boats of Different Types.
 - Seprate Layer For Model Class.
 ___
 
-### Note
-- Due to Externa API:- Open Weather Map Returning 404 Error, JavaScript's Random Number Functionality Used For Displaying Wind Speed(But Code Commented).
