@@ -1,6 +1,26 @@
 ﻿$(document).ready(function () {
-    CurrentWindSpeed();
+    WeatherMapAPIWinSpeed();
+    //CurrentWindSpeed();
 });
+
+function WeatherMapAPIWinSpeed() {
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://community-open-weather-map.p.rapidapi.com/weather?callback=test&id=2172797&units=%2522metric%2522%20or%20%2522imperial%2522&mode=xml%252C%20html&q=Durban%252CSouth%20Africa",
+        "method": "GET",
+        "headers": {
+            "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
+            "x-rapidapi-key": "de38545f84msh0ec9d837e577be1p19ba44jsn80b6bd5e5319"
+            //"x-rapidapi-key": "f33927c68dmsh333db3787cda256p1583abjsn5fa7465f2834"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+    });
+}
+
 
 function CurrentWindSpeed() {
     var currentSpeed = Math.floor(Math.random() * 50) + 1;

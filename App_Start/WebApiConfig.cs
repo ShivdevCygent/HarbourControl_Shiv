@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace HarbourControl_Shiv
 {
@@ -9,6 +10,10 @@ namespace HarbourControl_Shiv
     {
         public static void Register(HttpConfiguration config)
         {
+            //For Enabling Cross Origins Request Serivce
+            var corsAttr = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
+
             // Web API configuration and services
 
             // Web API routes

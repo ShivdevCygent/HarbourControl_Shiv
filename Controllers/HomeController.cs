@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 using HarbourControlModels;
 
@@ -11,6 +12,8 @@ namespace HarbourControl_Shiv.Controllers
     public class HomeController : Controller
     {
         public readonly log4net.ILog exceptionLogger = log4net.LogManager.GetLogger("ExceptionLoggger");  //Declaring Log4Net 
+
+        [EnableCors(origins: "*", headers: "*", methods: "*")]
         public ActionResult Index()
         {
             //Summary
