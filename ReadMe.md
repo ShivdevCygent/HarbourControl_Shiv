@@ -1,18 +1,27 @@
-Project Name:- Harbour Control
-Task:- Control flow of different boat types into harbour 
-Platform:- Visual Studio 2019
-Technology Used:-
-                4.1:- C#, MVC
-                4.2:- JavaScript
-                4.3:- HTML, CSS(Design Purpose)
-                4.4:- Admin LTE Panel Used for Better View.
+### Project Name:- Harbour Control
+__________________________________________________________________
+### About Project
+- For Controlling the flow of Boats in Harbor.
+__________________________________________________________________
+### Technology
+- Software:- Visual Studio 2019
+- Language:- C#, JavaScript
+- Front End:- HTML, CSS, JavaScript
+- FrameWork:- .NET MVC
+- Design:- AdminLTE for Dashboard
+___
+### External API
+- API:- OpenWeatherMapAPI
+- Description:- Open Weather Map API used for Fetching Current Wind Speed In Durban, South Africa.
 
-Description:- 
-Use of C# Random Number Functionality For Randomly Generating The Number of Boats TO Be Created.
-Use of C# Random Number Functionality For Randomly Generating The Boats of Different Types
-Seprate Layer For Model Class.
+___
 
-External API:- 
-Open Weather Map API used for Fetching Current Wind Speed In Durban, South Africa.
+###Project Description
 
-Note:- Due to Externa API:- Open Weather MAp Returning 404 Error, JavaScript's Random Number Functionality Used For Displaying Wind Speed(But Code Commented)  
+- Use of C# Random Number Functionality For Randomly Generating The Number of Boats To Be Created.
+- Use of C# Random Number Functionality For Randomly Generating The Boats of Different Types.
+- Seprate Layer For Model Class.
+___
+
+### Note
+- Due to Externa API:- Open Weather Map Returning 404 Error, JavaScript's Random Number Functionality Used For Displaying Wind Speed(But Code Commented).
