@@ -1,6 +1,5 @@
 ﻿$(document).ready(function () {
-    WeatherMapAPIWinSpeed();
-    //CurrentWindSpeed();
+    WeatherMapAPIWinSpeed()
 });
 
 function WeatherMapAPIWinSpeed() {
