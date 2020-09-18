@@ -2126,7 +2126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HarbourControlModels\HarbourControlModels.csproj">
-      <Project>{05f69dbf-a298-4f48-bb97-cec169d14ec5}</Project>
+      <Project>{5d15ecc3-6ba3-4626-aa77-8f9c79163356}</Project>
       <Name>HarbourControlModels</Name>
     </ProjectReference>
   </ItemGroup>
