@@ -2125,8 +2125,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HarbourControlModels\HarbourControlModels.csproj">
-      <Project>{5d15ecc3-6ba3-4626-aa77-8f9c79163356}</Project>
+    <ProjectReference Include="HarbourControlModels\HarbourControlModels.csproj">
+      <Project>{54ae1a31-336f-4ab5-9b3e-96669d9f8c26}</Project>
       <Name>HarbourControlModels</Name>
     </ProjectReference>
   </ItemGroup>
