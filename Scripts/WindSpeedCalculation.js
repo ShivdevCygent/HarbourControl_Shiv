@@ -2,41 +2,27 @@
     WeatherMapAPIWinSpeed()
 });
 
+var harbourWindSpeed;
 function WeatherMapAPIWinSpeed() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://community-open-weather-map.p.rapidapi.com/weather?callback=test&id=2172797&units=%2522metric%2522%20or%20%2522imperial%2522&mode=xml%252C%20html&q=Durban%252CSouth%20Africa",
-        "method": "GET",
-        "headers": {
-            "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-            "x-rapidapi-key": "de38545f84msh0ec9d837e577be1p19ba44jsn80b6bd5e5319"
-            //"x-rapidapi-key": "f33927c68dmsh333db3787cda256p1583abjsn5fa7465f2834"
-        }
+        "url": "https://api.openweathermap.org/data/2.5/weather?q=Durban,ZA&APPID=00448fd92b992dd8aed304eaadf5aa53",
+        "method": "GET"
     }
-
     $.ajax(settings).done(function (response) {
-        console.log(response);
+        harbourWindSpeed = response.wind.speed;
+        $("#WindSpeedDisplay").text("Wind Speed at Durban Harbour is " + harbourWindSpeed + " KM/Hr.");
     });
 }
-
-
-function CurrentWindSpeed() {
-    var currentSpeed = Math.floor(Math.random() * 50) + 1;
-    $("#WindSpeedDisplay").text("Wind Speed at Durban Harbour is " + currentSpeed + " KM/Hr.");
-    setInterval(() => { CurrentWindSpeed() }, 6000000);
-}
-
 
 var journeyCompletionProgress = 0;
 var a = 0;
 function UpdateDistanceTravelled() {
-    var currentSpeedofWind = Math.floor(Math.random() * 50) + 1;
+    //var currentSpeedofWind = Math.floor(Math.random() * 50) + 1;
 
-    if ($(".boatJourneyStart_" + a).val() == "") {
-
+    if ($(".boatJourneyStart_" + a).html() == "") {
         var journeyStartDate = new Date();
-
         var year = journeyStartDate.getFullYear()
         var month = journeyStartDate.getMonth() + 1;
         var day = journeyStartDate.getDate();
@@ -51,7 +37,8 @@ function UpdateDistanceTravelled() {
         $(".boatJourneyStart_" + a).text(journeyStartTime);
     }
 
-    if ((currentSpeedofWind >= 10 || currentSpeedofWind <= 30) && ($(".boatType_" + a).val() != "Sail Boat")) {
+    if ((harbourWindSpeed >= 10 || harbourWindSpeed <= 30)) {
+
         if (journeyCompletionProgress <= 100) {
             journeyCompletionProgress = journeyCompletionProgress + 10;
             $(".boatTravel_" + a).val(journeyCompletionProgress);
@@ -59,7 +46,6 @@ function UpdateDistanceTravelled() {
         if (journeyCompletionProgress == 100) {
             a++;
             journeyCompletionProgress = 0;
-            //return progress;
         }
         var journeyEndDate = new Date();
 
@@ -76,16 +62,9 @@ function UpdateDistanceTravelled() {
 
         $(".boatJourneyEnd_" + a).text(journeyEndTime);
     }
-    else if ((currentSpeedofWind < 10 || currentSpeedofWind > 30) && ($(".boatType" + a).val == "Sail Boat")) {
+    else if ((harbourWindSpeed < 10 || harbourWindSpeed > 30) && ($(".boatType_" + a).html() == "Sail Boat")) {
         a++;
-        if (journeyCompletionProgress <= 100) {
-            journeyCompletionProgress = journeyCompletionProgress + 10;
-            $(".boatTravel_" + a).val(journeyCompletionProgress);
-        }
-        if (progress == 100) {
-            a++;
-            journeyCompletionProgress = 0;
-        }
+
     }
 }
 setInterval(() => {

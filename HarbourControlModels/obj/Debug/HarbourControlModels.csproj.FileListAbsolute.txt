@@ -4,3 +4,9 @@ D:\Clone Repo\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlM
 D:\Clone Repo\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.csproj.CoreCompileInputs.cache
 D:\Clone Repo\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.dll
 D:\Clone Repo\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.pdb
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\bin\Debug\HarbourControlModels.dll
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\bin\Debug\HarbourControlModels.pdb
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.csprojAssemblyReference.cache
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.csproj.CoreCompileInputs.cache
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.dll
+D:\Clone Repo 2\HarbourControl_Shiv\HarbourControlModels\obj\Debug\HarbourControlModels.pdb
